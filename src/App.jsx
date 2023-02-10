@@ -4,6 +4,7 @@ import leftBurger from "./assets/images/left-hero-burger.png";
 import rightBurger from "./assets/images/right-hero-burger.png";
 import hand from "./assets/images/hand.svg";
 import feelTheHype from "./assets/images/feel-the-hype-burger.png";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App font-['Maven_Pro'] overflow-x-hidden">
@@ -156,8 +157,75 @@ function App() {
       </section>
 
       {/* feel the hype */}
-      <section className="md:h-screen bg-[#1e1e1e]">
-        <div>
+      <section className="md:min-h-screen bg-[#1e1e1e]">
+        <div class="text-[#E9944F] overflow-hidden">
+          <p class="absolute my-5 font-['Calfine_Demo'] text-5xl text-center m-0 p-0 animation-marquee tracking-wider">
+            sheesh! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; sheesh! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp;&nbsp; sheesh! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; sheesh! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; sheesh! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; sheesh! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            sheesh! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sheesh!
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sheesh! &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sheesh! &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sheesh! &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; sheesh! &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; sheesh! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; sheesh! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; sheesh! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            sheesh! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sheesh!
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sheesh! &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sheesh! &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sheesh! &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; sheesh! &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; sheesh! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; sheesh! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; sheesh! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            sheesh! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sheesh!
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sheesh! &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sheesh! &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sheesh! &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; sheesh! &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; sheesh! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; sheesh! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; sheesh! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            sheesh! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sheesh!
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sheesh! &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sheesh! &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sheesh! &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; sheesh! &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; sheesh! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; sheesh! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; sheesh! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            sheesh! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sheesh!
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sheesh! &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sheesh! &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sheesh! &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; sheesh! &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; sheesh! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; sheesh! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; sheesh! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            sheesh! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sheesh!
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sheesh! &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sheesh! &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sheesh! &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; sheesh! &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; sheesh! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; sheesh! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; sheesh! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            sheesh! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sheesh!
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sheesh! &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sheesh! &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sheesh! &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; sheesh! &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; sheesh! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; sheesh! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; sheesh! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            sheesh! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sheesh!
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sheesh! &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          </p>
           <svg
             width="1440"
             height="84"
@@ -375,17 +443,46 @@ function App() {
           </svg>
         </div>
         <div className="flex flex-col sm:flex-row items-center">
-          <div className="w-full">
-            <img className="w-28 my-12 sm:my-0 sm:w-2/4 mx-auto" src={feelTheHype} alt="" />
+          <div className="w-full my-12">
+            <img
+              className="w-28 sm:my-0 sm:w-2/4 mx-auto"
+              src={feelTheHype}
+              alt=""
+            />
+            <h2 className="text-[#E4DDCD] text-3xl w-fit font-['Calfine_Demo'] mx-auto text-center flex items-center text-center">
+              Burger Burst
+              <div className="relative ml-2">
+                <svg
+                  width="66"
+                  height="65"
+                  viewBox="0 0 66 65"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M62.1712 33.3649L63.6683 32.4992L62.1712 31.6335L56.4412 28.3202L60.7035 23.2439L61.8197 21.9146L60.1099 21.6158L53.5957 20.4772L55.8635 14.2417L56.4567 12.6106L54.748 12.9155L48.2416 14.0767L48.2566 7.44137L48.2605 5.69975L46.7544 6.57435L41.0348 9.89572L38.7792 3.65986L38.1861 2.01997L37.0703 3.36019L32.8345 8.44823L28.5987 3.36019L27.4829 2.01997L26.8898 3.65986L24.6342 9.8956L18.9163 6.5744L17.4101 5.69955L17.414 7.44137L17.429 14.0767L10.9226 12.9155L9.21425 12.6106L9.80705 14.2415L12.0735 20.4772L5.56068 21.6158L3.85098 21.9147L4.96707 23.2439L9.22943 28.3202L3.49942 31.6335L2.00231 32.4992L3.49942 33.3649L9.22957 36.6783L4.96698 41.7562L3.85124 43.0853L5.56068 43.3842L12.0735 44.5228L9.80705 50.7585L9.21423 52.3894L10.9226 52.0845L17.4276 50.9233L17.414 57.5588L17.4105 59.3002L18.9163 58.4256L24.6342 55.1044L26.8898 61.3401L27.4829 62.98L28.5987 61.6398L32.8345 56.5518L37.0703 61.6398L38.1861 62.98L38.7792 61.3401L41.0348 55.1043L46.7544 58.4257L48.2605 59.3002L48.2566 57.5586L48.2416 50.9233L54.748 52.0845L56.4567 52.3894L55.8635 50.7583L53.5957 44.5228L60.1099 43.3842L61.8194 43.0854L60.7036 41.7562L56.441 36.6783L62.1712 33.3649Z"
+                    fill="#F2EFE0"
+                    stroke="#E5914D"
+                    stroke-width="2"
+                  />
+                </svg>
+
+                <span className="text-[#1e1e1e] font-['Maven_Pro'] absolute top-4 left-[1.15rem] font-bold text-lg">$12</span>
+              </div>
+            </h2>
           </div>
           <div className="hidden md:flex items-center w-1 h-[85vh] opacity-40 rounded-full bg-[#e4ddcd]">
             <div className="w-1 h-[50vh] bg-[#1e1e1e]"></div>
           </div>
           <div className="w-full text-center ">
             <div className="md:w-3/4 mx-auto">
-              <h1 className="font-['Calfine_Demo'] text-7xl lg:text-8xl bg-clip-text bg-gradient-to-b text-transparent from-[#E4DDCD] to-[#FFD497]">Feel The Hype!</h1>
-              <h4 className="text-[#E5DDCB] font-medium">AWARD WINNING FLAVORS</h4>
-              <p className="text-[#E4DDCD]/75 my-4">
+              <h1 className="font-['Calfine_Demo'] text-7xl lg:text-8xl bg-clip-text bg-gradient-to-b text-transparent from-[#E4DDCD] to-[#FFD497]">
+                Feel The Hype!
+              </h1>
+              <h4 className="text-[#E5DDCB] font-medium">
+                AWARD WINNING FLAVORS
+              </h4>
+              <p className="text-[#E4DDCD]/75 my-4 w-4/5 mx-auto">
                 Our burgers have gained international recognition for most
                 unique flavors.
               </p>
@@ -433,6 +530,8 @@ function App() {
           </div>
         </div>
       </section>
+
+      <Footer />
     </div>
   );
 }
