@@ -4,7 +4,10 @@ import leftBurger from "./assets/images/left-hero-burger.png";
 import rightBurger from "./assets/images/right-hero-burger.png";
 import hand from "./assets/images/hand.svg";
 import feelTheHype from "./assets/images/feel-the-hype-burger.png";
+import left from "./assets/images/hear-the-hype-left.png";
+import right from "./assets/images/hear-the-hype-right.png";
 import Footer from "./components/Footer";
+import Reviews from "./components/Reviews";
 function App() {
   return (
     <div className="App font-['Maven_Pro'] overflow-x-hidden">
@@ -467,7 +470,9 @@ function App() {
                   />
                 </svg>
 
-                <span className="text-[#1e1e1e] font-['Maven_Pro'] absolute top-4 left-[1.15rem] font-bold text-lg">$12</span>
+                <span className="text-[#1e1e1e] font-['Maven_Pro'] absolute top-4 left-[1.15rem] font-bold text-lg">
+                  $12
+                </span>
               </div>
             </h2>
           </div>
@@ -531,6 +536,15 @@ function App() {
         </div>
       </section>
 
+      {/* hear the hype */}
+      <section className="bg-[#F2EEE2]">
+        <div className="flex items-center justify-center py-8 space-x-2">
+         <img className="w-32 -mt-8" src={left} alt="" />
+          <h1 className="text-[#1e1e1e] text-5xl w-fit font-['Calfine_Demo']">Hear the Hype</h1>
+          <img className="w-28" src={right} alt="" />
+        </div>
+        <Reviews />
+      </section>
       <Footer />
     </div>
   );
