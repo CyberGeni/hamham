@@ -10,6 +10,7 @@ import right from "./assets/images/hear-the-hype-right.png";
 import doodle from "./assets/images/doodle-line.svg";
 import Footer from "./components/Footer";
 import Reviews from "./components/Reviews";
+import Carousel from "./components/Carousel";
 function App() {
   return (
     <div className="App font-['Maven_Pro'] overflow-x-hidden">
@@ -538,8 +539,14 @@ function App() {
         </div>
       </section>
 
+      {/* featured burgers  */}
+      <section className="bg-[#E4DDCD]">
+        <Carousel />
+      </section>
+      
+
       {/* hear the hype */}
-      <section className="bg-[#F2EEE2]">
+      <section className="bg-[#F2EEE2] m">
         <div className="flex items-center justify-center py-8 md:py-16 space-x-2">
           <img className="w-16 sm:w-28 md:w-32 -mt-8" src={left} alt="" />
           <h1 className="text-[#1e1e1e] text-center text-5xl w-fit font-['Calfine_Demo']">

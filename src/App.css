@@ -1,0 +1,19 @@
+/* carousel styling */
+.splide__slide.is-active img {
+  transform: scale(1.3);
+  transition: transform 0.5s;
+}
+
+.splide__pagination__page.is-active {
+  background: #1e1e1e !important;
+  width: 5.5em !important;
+  transform: scale(1) !important;
+}
+.splide__pagination__page {
+  background: #d4cdbd !important;
+  width: 4em !important;
+  height: 0.5em !important;
+  border-radius: 8px !important;
+  margin: 0 0.3em !important;
+  transition: all 0.5s !important;
+}
