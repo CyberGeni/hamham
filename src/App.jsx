@@ -540,12 +540,12 @@ function App() {
 
       {/* hear the hype */}
       <section className="bg-[#F2EEE2]">
-        <div className="flex items-center justify-center py-8 space-x-2">
-          <img className="w-32 -mt-8" src={left} alt="" />
-          <h1 className="text-[#1e1e1e] text-5xl w-fit font-['Calfine_Demo']">
+        <div className="flex items-center justify-center py-8 md:py-16 space-x-2">
+          <img className="w-16 sm:w-28 md:w-32 -mt-8" src={left} alt="" />
+          <h1 className="text-[#1e1e1e] text-center text-5xl w-fit font-['Calfine_Demo']">
             Hear the Hype
           </h1>
-          <img className="w-28" src={right} alt="" />
+          <img className="w-14 sm:w-24 md:w-28" src={right} alt="" />
         </div>
         <Reviews />
       </section>
