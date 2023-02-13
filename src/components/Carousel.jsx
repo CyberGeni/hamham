@@ -7,36 +7,55 @@ import MiddleBurger from "../assets/images/carousel-burger-middle.png";
 import "../App.css";
 function Carousel() {
   return (
-    <div className="w-full py-3">
+    <div className="w-full py-4">
       <Splide
-        options={{
-          type: "loop",
+        // options={{
+        //   type: "loop",
         //   padding: "15rem",
-          rewind: true,
+
+        // }}
+        options={{
+            type: "loop",
+            padding: "7rem",
         }}
         hasTrack={false}
         aria-label="..."
         className=""
       >
-        <SplideTrack className="my-4">
+        {/* <SplideTrack className="my-4 splide__track">
           <SplideSlide className="splide__slide transition-all scale-1">
-            <img className="w-16 h-auto my-2" src={LeftBurger} alt="" />
+            <img className="w-96 h-auto my-10" src={LeftBurger} alt="" />
           </SplideSlide>
           <SplideSlide className="splide__slide transition-all scale-1">
-            <img className="w-16 h-auto my-2" src={MiddleBurger} alt="" />
+            <img className="w-96 h-auto my-10" src={MiddleBurger} alt="" />
           </SplideSlide>
           <SplideSlide className="splide__slide transition-all scale-1">
-            <img className="w-16 h-auto my-2" src={RightBurger} alt="" />
+            <img className="w-96 h-auto my-10" src={RightBurger} alt="" />
+          </SplideSlide>
+        </SplideTrack> */}
+        <SplideTrack>
+          <SplideSlide>
+            <img className="w-96 h-auto mx-auto my-10" src={LeftBurger} alt="" />
+          </SplideSlide>
+          <SplideSlide>
+            <img className="w-96 h-auto mx-auto my-10" src={MiddleBurger} alt="" />
+          </SplideSlide>
+          <SplideSlide>
+            <img className="w-96 h-auto mx-auto my-10" src={RightBurger} alt="" />
           </SplideSlide>
         </SplideTrack>
 
         <div className="splide__arrows">
-          <button className="splide__arrow splide__arrow--prev">Prev</button>
-          <button className="splide__arrow splide__arrow--next">Next</button>
+          <button className="splide__arrow splide__arrow--prev bg-transparent border rounded-full">
+            PREV
+          </button>
+          <button className="splide__arrow splide__arrow--next bg-transparent border rounded-full">
+            NEXT
+          </button>
         </div>
 
         <ul
-          class="splide__pagination splide__pagination--ltr"
+          class="splide__pagination "
           role="tablist"
           aria-label="Select a slide to show"
         >
