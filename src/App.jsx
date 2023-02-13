@@ -4,8 +4,10 @@ import leftBurger from "./assets/images/left-hero-burger.png";
 import rightBurger from "./assets/images/right-hero-burger.png";
 import hand from "./assets/images/hand.svg";
 import feelTheHype from "./assets/images/feel-the-hype-burger.png";
+import tasteTheHype from "./assets/images/taste-the-hype-bg.png";
 import left from "./assets/images/hear-the-hype-left.png";
 import right from "./assets/images/hear-the-hype-right.png";
+import doodle from "./assets/images/doodle-line.svg";
 import Footer from "./components/Footer";
 import Reviews from "./components/Reviews";
 function App() {
@@ -539,12 +541,83 @@ function App() {
       {/* hear the hype */}
       <section className="bg-[#F2EEE2]">
         <div className="flex items-center justify-center py-8 space-x-2">
-         <img className="w-32 -mt-8" src={left} alt="" />
-          <h1 className="text-[#1e1e1e] text-5xl w-fit font-['Calfine_Demo']">Hear the Hype</h1>
+          <img className="w-32 -mt-8" src={left} alt="" />
+          <h1 className="text-[#1e1e1e] text-5xl w-fit font-['Calfine_Demo']">
+            Hear the Hype
+          </h1>
           <img className="w-28" src={right} alt="" />
         </div>
         <Reviews />
       </section>
+
+      {/* taste the hype */}
+      <section className="relative h-max">
+        <img className="-mt-2 relative -z-10" alt="" src={doodle} />
+        <div className="w-full">
+          <img
+            className="min-w-[900px] opacity-80 sm:opacity-100 mx-auto -left-1/3 -right-1/3 -mt-8 sm:-mt-12 md:-mt-16 absolute -z-30"
+            src={tasteTheHype}
+            alt=""
+          />
+          <div>
+            <div className="flex flex-col items-center h-max pt-16 sm:pt-24 pb-16 sm:pb-20">
+              <img className="mx-auto w-24" src={hand} alt="" />
+              <div className="relative mt-4 sm:mt-5 mb-4 w-fit text-center mx-auto">
+                <h1 className="absolute -z-20 mt-1 -ml-2 text-center hero-text text-[#1E1E1E] text-8xl font-['Calfine_Demo']">
+                  Taste the Hype
+                </h1>
+                <h1 className="text-[#F2EEE2] text-center text-8xl font-['Calfine_Demo']">
+                  Taste the Hype
+                </h1>
+              </div>
+              <p className="text-center font-medium">
+                Come visit us at your local Hamham, location
+              </p>
+              <button className="flex items-center text-center rounded-full mx-auto w-fit text-[#E4DDCD] px-5 py-3 bg-[#1e1e1e] my-2">
+                Shop Now{" "}
+                <svg
+                className="ml-1.5 w-6"
+                  width="30"
+                  height="29"
+                  viewBox="0 0 30 29"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M21.6745 28.4753C25.571 28.4753 28.7298 22.3414 28.7298 14.7748C28.7298 7.20816 25.571 1.07422 21.6745 1.07422C17.7779 1.07422 14.6192 7.20816 14.6192 14.7748C14.6192 22.3414 17.7779 28.4753 21.6745 28.4753Z"
+                    fill="#E4DDCD"
+                  />
+                  <path
+                    d="M21.6749 28.7751C17.6196 28.7751 14.3201 22.4949 14.3201 14.7751C14.3201 7.05536 17.6196 0.775146 21.6749 0.775146C25.7302 0.775146 29.0297 7.05536 29.0297 14.7751C29.0297 22.4949 25.7302 28.7751 21.6749 28.7751ZM21.6749 1.37406C17.9497 1.37406 14.919 7.38609 14.919 14.7751C14.919 22.1642 17.9497 28.1762 21.6749 28.1762C25.4001 28.1762 28.4307 22.1642 28.4307 14.7751C28.4307 7.38609 25.4001 1.37406 21.6749 1.37406Z"
+                    fill="black"
+                  />
+                  <path
+                    d="M24.6298 12.6003C24.1776 10.2846 23.0255 8.63818 21.6743 8.63818C19.9287 8.63818 18.5138 11.3856 18.5138 14.7753C18.5138 18.1649 19.9287 20.9124 21.6743 20.9124C23.42 20.9124 24.8349 18.1649 24.8349 14.7753H21.6743L24.6298 12.6003Z"
+                    fill="black"
+                  />
+                  <path
+                    d="M7.56311 28.4753C11.4597 28.4753 14.6184 22.3414 14.6184 14.7748C14.6184 7.20816 11.4597 1.07422 7.56311 1.07422C3.66656 1.07422 0.507784 7.20816 0.507784 14.7748C0.507784 22.3414 3.66656 28.4753 7.56311 28.4753Z"
+                    fill="#E4DDCD"
+                  />
+                  <path
+                    d="M7.56352 28.7751C3.5082 28.7751 0.20874 22.4949 0.20874 14.7751C0.20874 7.05536 3.5082 0.775146 7.56352 0.775146C11.6188 0.775146 14.9183 7.05536 14.9183 14.7751C14.9183 22.4949 11.6188 28.7751 7.56352 28.7751ZM7.56352 1.37406C3.83833 1.37406 0.807657 7.38609 0.807657 14.7751C0.807657 22.1642 3.83833 28.1762 7.56352 28.1762C11.2887 28.1762 14.3194 22.1642 14.3194 14.7751C14.3194 7.38609 11.2887 1.37406 7.56352 1.37406Z"
+                    fill="black"
+                  />
+                  <path
+                    d="M10.5184 12.6003C10.0663 10.2846 8.91412 8.63818 7.56295 8.63818C5.81731 8.63818 4.40239 11.3856 4.40239 14.7753C4.40239 18.1649 5.81731 20.9124 7.56295 20.9124C9.30859 20.9124 10.7235 18.1649 10.7235 14.7753H7.56295L10.5184 12.6003Z"
+                    fill="black"
+                  />
+                  <path
+                    d="M10.5184 12.6003C10.0663 10.2846 8.91412 8.63818 7.56295 8.63818C5.81731 8.63818 4.40239 11.3856 4.40239 14.7753C4.40239 18.1649 5.81731 20.9124 7.56295 20.9124C9.30859 20.9124 10.7235 18.1649 10.7235 14.7753H7.56295L10.5184 12.6003Z"
+                    fill="black"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <Footer />
     </div>
   );
