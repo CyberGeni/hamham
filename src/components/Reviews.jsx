@@ -31,6 +31,7 @@ function Reviews() {
     <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-10 w-5/6 sm:w-11/12 md:w-10/12 mx-auto py-6">
       {reviews.map((review) => (
         <div
+        data-aos="fade-up"
           key={review.id}
           className="grid shadow-[-7px_8px_0px_#805C3F] rounded-3xl bg-[#DBCCB3] w-fit p-7"
         >

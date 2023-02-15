@@ -11,7 +11,11 @@ import doodle from "./assets/images/doodle-line.svg";
 import Footer from "./components/Footer";
 import Reviews from "./components/Reviews";
 import Carousel from "./components/Carousel";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 function App() {
+  AOS.init()
   return (
     <div className="App font-['Maven_Pro'] overflow-x-hidden">
       <Navbar />
@@ -151,6 +155,7 @@ function App() {
           alt=""
         />
         <img
+       data-aos="fade-right"
           className="w-36 sm:w-60 md:72 lg:w-80 -z-10 opacity-40 md:opacity-100  absolute left-0 bottom-3"
           src={leftBurger}
           alt=""
@@ -159,6 +164,7 @@ function App() {
           className="w-36 sm:w-60 md:72 lg:w-80 -z-10 opacity-40 md:opacity-100 absolute right-0 bottom-3"
           src={rightBurger}
           alt=""
+          data-aos="fade-left"
         />
       </section>
 
@@ -451,6 +457,7 @@ function App() {
         <div className="flex flex-col sm:flex-row items-center">
           <div className="w-full my-12">
             <img
+            data-aos="fade" 
               className="w-28 sm:my-0 sm:w-2/4 mx-auto"
               src={feelTheHype}
               alt=""
@@ -484,17 +491,17 @@ function App() {
           </div>
           <div className="w-full text-center ">
             <div className="md:w-3/4 mx-auto">
-              <h1 className="font-['Calfine_Demo'] text-7xl lg:text-8xl bg-clip-text bg-gradient-to-b text-transparent from-[#E4DDCD] to-[#FFD497]">
+              <h1 data-aos="fade-up" className="font-['Calfine_Demo'] text-7xl lg:text-8xl bg-clip-text bg-gradient-to-b text-transparent from-[#E4DDCD] to-[#FFD497]">
                 Feel The Hype!
               </h1>
-              <h4 className="text-[#E5DDCB] font-medium">
+              <h4 data-aos="fade-up"  className="text-[#E5DDCB] font-medium">
                 AWARD WINNING FLAVORS
               </h4>
-              <p className="text-[#E4DDCD]/75 my-4 w-4/5 mx-auto">
+              <p data-aos="fade-up"  className="text-[#E4DDCD]/75 my-4 w-4/5 mx-auto">
                 Our burgers have gained international recognition for most
                 unique flavors.
               </p>
-              <button className="text-[#E5DDCB] mx-auto my-8 border rounded-full flex px-5 py-2">
+              <button data-aos="fade-up"  className="text-[#E5DDCB] mx-auto my-8 border rounded-full flex px-5 py-2">
                 LEARN MORE
                 <svg
                   className="ml-2"
@@ -543,10 +550,10 @@ function App() {
       <section className="bg-[#E4DDCD]">
         <div className="flex justify-between items-end w-[85%] mx-auto py-12">
           <div>
-            <p className="text-base md:text-lg font-medium">Made with Love</p>
-            <h1 className="font-['Calfine_Demo'] text-3xl md:text-4xl">Featured Burgers</h1>
+            <p data-aos="fade-up" className="text-base md:text-lg font-medium">Made with Love</p>
+            <h1 data-aos="fade-up" className="font-['Calfine_Demo'] text-3xl md:text-4xl">Featured Burgers</h1>
           </div>
-          <button className="flex items-center border-[#1e1e1e] border rounded-full px-3.5 sm:px-5 md:px-7 py-2 md:py-3 text-sm">
+          <button data-aos="fade-up" className="flex items-center border-[#1e1e1e] border rounded-full px-3.5 sm:px-5 md:px-7 py-2 md:py-3 text-sm">
             VIEW ALL{" "}
             <svg
               className="ml-2"
@@ -633,17 +640,17 @@ function App() {
             </svg>
           </button>
         </div>
-        <Carousel />
+        <Carousel data-aos="fade-up" />
       </section>
 
       {/* hear the hype */}
       <section className="bg-[#F2EEE2] m">
         <div className="flex items-center justify-center py-8 md:py-16 space-x-2">
-          <img className="w-16 sm:w-28 md:w-32 -mt-8" src={left} alt="" />
-          <h1 className="text-[#1e1e1e] text-center text-3xl sm:text-5xl w-fit font-['Calfine_Demo']">
+          <img data-aos="fade-right" className="w-16 sm:w-28 md:w-32 -mt-8" src={left} alt="" />
+          <h1 data-aos="fade-up" className="text-[#1e1e1e] text-center text-3xl sm:text-5xl w-fit font-['Calfine_Demo']">
             Hear the Hype
           </h1>
-          <img className="w-14 sm:w-24 md:w-28" src={right} alt="" />
+          <img data-aos="fade-left" className="w-14 sm:w-24 md:w-28" src={right} alt="" />
         </div>
         <Reviews />
       </section>
@@ -653,14 +660,15 @@ function App() {
         <img className="-mt-2 relative -z-10" alt="" src={doodle} />
         <div className="w-full">
           <img
+          
             className="min-w-[900px] opacity-80 sm:opacity-100 mx-auto -left-2/3 -right-2/3 -mt-8 sm:-mt-12 md:-mt-16 absolute -z-30"
             src={tasteTheHype}
             alt=""
           />
           <div>
             <div className="flex flex-col items-center h-max pt-16 sm:pt-24 pb-16 sm:pb-20">
-              <img className="mx-auto w-24" src={hand} alt="" />
-              <div className="relative mt-4 sm:mt-5 mb-4 w-fit text-center mx-auto">
+              <img data-aos="fade-up" className="mx-auto w-24" src={hand} alt="" />
+              <div data-aos="fade-up" className="relative mt-4 sm:mt-5 mb-4 w-fit text-center mx-auto">
                 <h1 className="absolute -z-20 mt-1 -ml-2 text-center hero-text text-[#1E1E1E] text-8xl font-['Calfine_Demo']">
                   Taste the Hype
                 </h1>
@@ -668,10 +676,10 @@ function App() {
                   Taste the Hype
                 </h1>
               </div>
-              <p className="text-center font-medium">
+              <p data-aos="fade-up" className="text-center font-medium">
                 Come visit us at your local Hamham, location
               </p>
-              <button className="flex items-center text-center rounded-full mx-auto w-fit text-[#E4DDCD] px-5 py-3 bg-[#1e1e1e] my-2">
+              <button data-aos="fade-up" className="flex items-center text-center rounded-full mx-auto w-fit text-[#E4DDCD] px-5 py-3 bg-[#1e1e1e] my-2">
                 Shop Now{" "}
                 <svg
                   className="ml-1.5 w-6"

@@ -5,6 +5,8 @@ import LeftBurger from "../assets/images/carousel-burger-left.png";
 import RightBurger from "../assets/images/carousel-burger-right.png";
 import MiddleBurger from "../assets/images/carousel-burger-middle.png";
 import "../App.css";
+import AOS from "aos";
+
 function Carousel() {
   const burgers = [
     {
@@ -29,7 +31,7 @@ function Carousel() {
         "Burger with cheese, bacon, lettuce, tomato, onion, and mayo",
     },
   ];
-
+AOS.init()
   return (
     <div className="w-full py-4">
       <Splide
