@@ -541,12 +541,12 @@ function App() {
 
       {/* featured burgers  */}
       <section className="bg-[#E4DDCD]">
-        <div className="flex justify-between items-end w-5/6 mx-auto py-12">
+        <div className="flex justify-between items-end w-[85%] mx-auto py-12">
           <div>
             <p className="text-base md:text-lg font-medium">Made with Love</p>
             <h1 className="font-['Calfine_Demo'] text-3xl md:text-4xl">Featured Burgers</h1>
           </div>
-          <button className="flex items-center border-[#1e1e1e] border rounded-full px-5 md:px-7 py-2 md:py-3 text-sm">
+          <button className="flex items-center border-[#1e1e1e] border rounded-full px-3.5 sm:px-5 md:px-7 py-2 md:py-3 text-sm">
             VIEW ALL{" "}
             <svg
               className="ml-2"
@@ -640,7 +640,7 @@ function App() {
       <section className="bg-[#F2EEE2] m">
         <div className="flex items-center justify-center py-8 md:py-16 space-x-2">
           <img className="w-16 sm:w-28 md:w-32 -mt-8" src={left} alt="" />
-          <h1 className="text-[#1e1e1e] text-center text-5xl w-fit font-['Calfine_Demo']">
+          <h1 className="text-[#1e1e1e] text-center text-3xl sm:text-5xl w-fit font-['Calfine_Demo']">
             Hear the Hype
           </h1>
           <img className="w-14 sm:w-24 md:w-28" src={right} alt="" />
@@ -653,7 +653,7 @@ function App() {
         <img className="-mt-2 relative -z-10" alt="" src={doodle} />
         <div className="w-full">
           <img
-            className="min-w-[900px] opacity-80 sm:opacity-100 mx-auto -left-1/3 -right-1/3 -mt-8 sm:-mt-12 md:-mt-16 absolute -z-30"
+            className="min-w-[900px] opacity-80 sm:opacity-100 mx-auto -left-2/3 -right-2/3 -mt-8 sm:-mt-12 md:-mt-16 absolute -z-30"
             src={tasteTheHype}
             alt=""
           />
