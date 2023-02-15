@@ -51,7 +51,7 @@ function Carousel() {
               />
               <div className="text-center mb-24">
                 <h1 className="flex flex-col-reverse sm:flex-row items-center justify-center relative font-['Calfine_Demo']  mx-auto w-fit text-2xl md:text-3xl lg:text-4xl">
-                  <div className="absolute bg-[#E9944F] -z-10 w-24 md:w-[7.5rem] lg:w-[9rem] h-3 lg:h-4 sm:-mb-1 -left-0.5 bottom-2"></div>
+                  <div className="absolute bg-[#E9944F] -z-10 w-24 md:w-[7.5rem] lg:w-[9rem] h-3 lg:h-4 sm:-mb-1 -left-0.5 bottom-2 sm:bottom-7"></div>
                   {burger.name}
                   <svg
                     className="ml-2"
