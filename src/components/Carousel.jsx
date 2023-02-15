@@ -42,7 +42,7 @@ AOS.init()
         hasTrack={false}
         aria-label="..."
       >
-        <div className="nowrap w-[480rem] -left-24 flex text-clip opacity-30 hero-text text-transparent text-7xl md:text-8xl text-center absolute z-10 font-['Calfine_Demo'] ">FINGER LICKING &nbsp; &nbsp; &nbsp; &nbsp; FINGER LICKING &nbsp; &nbsp; &nbsp; &nbsp; FINGER LICKING</div>
+        <div className="nowrap w-[480rem] -left-24 flex text-clip opacity-30 hero-text text-transparent text-7xl md:text-8xl text-center absolute  font-['Calfine_Demo'] ">FINGER LICKING &nbsp; &nbsp; &nbsp; &nbsp; FINGER LICKING &nbsp; &nbsp; &nbsp; &nbsp; FINGER LICKING</div>
         <SplideTrack className="splide__track">
           {burgers.map((burger) => (
             <SplideSlide key={burger.id}>
