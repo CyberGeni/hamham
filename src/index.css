@@ -10,10 +10,7 @@
 body {
     overflow-x: hidden !important;
 }
-.hero-text {
-    -webkit-text-stroke: 1px;
-    -webkit-text-stroke-color: #1e1e1e;
-}
+
 @keyframes marquee {
     0% {
       transform: translateX(-100%);

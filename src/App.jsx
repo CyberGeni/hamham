@@ -541,7 +541,7 @@ function App() {
 
       {/* featured burgers  */}
       <section className="bg-[#E4DDCD]">
-        <div className="flex justify-between items-end w-5/6 mx-auto py-8">
+        <div className="flex justify-between items-end w-5/6 mx-auto py-12">
           <div>
             <p className="text-base md:text-lg font-medium">Made with Love</p>
             <h1 className="font-['Calfine_Demo'] text-3xl md:text-4xl">Featured Burgers</h1>
