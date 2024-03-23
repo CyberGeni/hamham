@@ -7,7 +7,7 @@ function Navbar() {
     <nav className="flex justify-between items-center text-[#E4DDCD] font-['Maven_Pro'] py-4 lg:py-6 px-8 relative">
       <img
         src={navBg}
-        className="absolute -z-10 w-fit min-w-[1200px] lg:min-w-[1500px] top-0 left-0"
+        className="absolute -z-10 w-full min-w-[1200px] lg:min-w-[1500px] top-0 left-0"
         alt=""
       />
       <ul className="md:flex hidden space-x-4">
